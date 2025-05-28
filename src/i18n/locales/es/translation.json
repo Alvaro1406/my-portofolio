@@ -1,0 +1,142 @@
+{
+  "navbar": {
+    "about": "Sobre mí",
+    "projects": "Proyectos",
+    "experience": "Experiencia",
+    "skills": "Habilidades",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "greeting": "Hola, soy",
+    "role": "Desarrollador Front-end",
+    "description": "Especializado en crear interfaces de usuario modernas y atractivas con JavaScript, TypeScript, React, Vue 3, Next.js, Nuxt y React Native.",
+    "viewProjects": "Ver proyectos",
+    "contactMe": "Contactar",
+    "whatsapp": "Contactar por WhatsApp"
+  },
+  "work": {
+    "title": "Mi Trabajo",
+    "subtitle": "Una selección de mis proyectos y experiencia profesional",
+    "projectsTab": "Proyectos",
+    "experienceTab": "Experiencia"
+  },
+  "projects": {
+    "title": "Proyectos",
+    "subtitle": "Una selección de mis proyectos más destacados"
+  },
+  "experience": {
+    "title": "Experiencia Profesional",
+    "subtitle": "Mi trayectoria laboral como desarrollador"
+  },
+  "skills": {
+    "title": "Mis Habilidades",
+    "subtitle": "Tecnologías y herramientas con las que trabajo",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "tools": "Herramientas",
+    "softSkills": {
+      "title": "Habilidades Blandas",
+      "communication": {
+        "name": "Comunicación",
+        "description": "Capacidad para expresar ideas de manera clara y efectiva, tanto verbalmente como por escrito."
+      },
+      "problemSolving": {
+        "name": "Resolución de problemas",
+        "description": "Habilidad para identificar problemas complejos y desarrollar soluciones efectivas."
+      },
+      "teamwork": {
+        "name": "Trabajo en equipo",
+        "description": "Experiencia colaborando en equipos multidisciplinarios para alcanzar objetivos comunes."
+      },
+      "adaptability": {
+        "name": "Adaptabilidad",
+        "description": "Flexibilidad para adaptarme a nuevos entornos, tecnologías y metodologías de trabajo."
+      },
+      "timeManagement": {
+        "name": "Gestión del tiempo",
+        "description": "Capacidad para priorizar tareas y cumplir con plazos ajustados."
+      },
+      "criticalThinking": {
+        "name": "Pensamiento crítico",
+        "description": "Análisis objetivo de situaciones para tomar decisiones fundamentadas."
+      }
+    }
+  },
+  "contact": {
+    "title": "Contacto",
+    "subtitle": "¿Interesado en trabajar juntos? Contáctame",
+    "form": {
+      "name": "Nombre",
+      "namePlaceholder": "Tu nombre",
+      "email": "Email",
+      "emailPlaceholder": "tu@email.com",
+      "subject": "Asunto",
+      "subjectPlaceholder": "Asunto de tu mensaje",
+      "message": "Mensaje",
+      "messagePlaceholder": "Escribe tu mensaje aquí...",
+      "send": "Enviar Mensaje"
+    },
+    "info": {
+      "title": "Información de Contacto",
+      "email": "Email",
+      "phone": "Teléfono",
+      "location": "Ubicación",
+      "followMe": "Sígueme en"
+    }
+  },
+  "footer": {
+    "description": "Desarrollador Front-end especializado en crear interfaces de usuario modernas y atractivas con JavaScript, TypeScript, React, Vue 3, Next.js, Nuxt y React Native.",
+    "links": "Enlaces",
+    "services": "Servicios",
+    "webDev": "Desarrollo Web",
+    "mobileDev": "Desarrollo Móvil",
+    "uxConsulting": "Consultoría UX/UI",
+    "cloudArch": "Arquitectura Cloud",
+    "webOpt": "Optimización Web",
+    "rights": "Todos los derechos reservados.",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Servicio"
+  },
+  "theme": {
+    "switchToLight": "Cambiar a modo claro",
+    "switchToDark": "Cambiar a modo oscuro"
+  },
+  "language": {
+    "es": "Español",
+    "en": "Inglés"
+  },
+  "about": {
+    "title": "Sobre mí",
+    "subtitle": "Conoce un poco más sobre mi trayectoria y quién soy",
+    "personalTitle": "Perfil Personal",
+    "personalDescription": "Soy un apasionado desarrollador Front-end con más de 6 años de experiencia creando interfaces de usuario modernas y atractivas. Me encanta resolver problemas complejos y transformar ideas en experiencias digitales intuitivas. Siempre estoy aprendiendo nuevas tecnologías y metodologías para mantenerme actualizado en este campo en constante evolución.",
+    "educationTitle": "Formación Académica",
+    "education": {
+      "degree1": "Ingeniería en Sistemas Computacionales",
+      "university1": "Universidad Tecnológica de Madrid",
+      "degree2": "Máster en Desarrollo Web Front-end",
+      "university2": "Instituto de Tecnologías Digitales",
+      "certification": "Certificación en Desarrollo de Aplicaciones React Native",
+      "certificationOrg": "React Academy"
+    },
+    "interestsTitle": "Intereses Personales",
+    "interests": [
+      "Fotografía", 
+      "Viajes", 
+      "Música", 
+      "Montañismo", 
+      "Lectura", 
+      "Ajedrez", 
+      "Tecnología"
+    ],
+    "languagesTitle": "Idiomas",
+    "languages": {
+      "spanish": "Español",
+      "english": "Inglés",
+      "french": "Francés",
+      "native": "Nativo",
+      "fluent": "Fluido",
+      "intermediate": "Intermedio"
+    }
+  }
+}

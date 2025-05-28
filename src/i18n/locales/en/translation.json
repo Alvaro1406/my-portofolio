@@ -1,0 +1,142 @@
+{
+  "navbar": {
+    "about": "About me",
+    "projects": "Projects",
+    "experience": "Experience",
+    "skills": "Skills",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hello, I'm",
+    "role": "Front-end Developer",
+    "description": "Specialized in creating modern and attractive user interfaces with JavaScript, TypeScript, React, Vue 3, Next.js, Nuxt and React Native.",
+    "viewProjects": "View projects",
+    "contactMe": "Contact me",
+    "whatsapp": "Contact via WhatsApp"
+  },
+  "work": {
+    "title": "My Work",
+    "subtitle": "A selection of my projects and professional experience",
+    "projectsTab": "Projects",
+    "experienceTab": "Experience"
+  },
+  "projects": {
+    "title": "Projects",
+    "subtitle": "A selection of my most notable projects"
+  },
+  "experience": {
+    "title": "Professional Experience",
+    "subtitle": "My career path as a developer"
+  },
+  "skills": {
+    "title": "My Skills",
+    "subtitle": "Technologies and tools I work with",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "tools": "Tools",
+    "softSkills": {
+      "title": "Soft Skills",
+      "communication": {
+        "name": "Communication",
+        "description": "Ability to express ideas clearly and effectively, both verbally and in writing."
+      },
+      "problemSolving": {
+        "name": "Problem Solving",
+        "description": "Skill to identify complex problems and develop effective solutions."
+      },
+      "teamwork": {
+        "name": "Teamwork",
+        "description": "Experience collaborating in multidisciplinary teams to achieve common goals."
+      },
+      "adaptability": {
+        "name": "Adaptability",
+        "description": "Flexibility to adapt to new environments, technologies, and work methodologies."
+      },
+      "timeManagement": {
+        "name": "Time Management",
+        "description": "Ability to prioritize tasks and meet tight deadlines."
+      },
+      "criticalThinking": {
+        "name": "Critical Thinking",
+        "description": "Objective analysis of situations to make informed decisions."
+      }
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Interested in working together? Contact me",
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Your name",
+      "email": "Email",
+      "emailPlaceholder": "your@email.com",
+      "subject": "Subject",
+      "subjectPlaceholder": "Subject of your message",
+      "message": "Message",
+      "messagePlaceholder": "Write your message here...",
+      "send": "Send Message"
+    },
+    "info": {
+      "title": "Contact Information",
+      "email": "Email",
+      "phone": "Phone",
+      "location": "Location",
+      "followMe": "Follow me on"
+    }
+  },
+  "footer": {
+    "description": "Front-end Developer specialized in creating modern and attractive user interfaces with JavaScript, TypeScript, React, Vue 3, Next.js, Nuxt and React Native.",
+    "links": "Links",
+    "services": "Services",
+    "webDev": "Web Development",
+    "mobileDev": "Mobile Development",
+    "uxConsulting": "UX/UI Consulting",
+    "cloudArch": "Cloud Architecture",
+    "webOpt": "Web Optimization",
+    "rights": "All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  },
+  "theme": {
+    "switchToLight": "Switch to light mode",
+    "switchToDark": "Switch to dark mode"
+  },
+  "language": {
+    "es": "Spanish",
+    "en": "English"
+  },
+  "about": {
+    "title": "About me",
+    "subtitle": "Get to know more about my background and who I am",
+    "personalTitle": "Personal Profile",
+    "personalDescription": "I'm a passionate Front-end developer with over 6 years of experience creating modern and attractive user interfaces. I love solving complex problems and turning ideas into intuitive digital experiences. I'm always learning new technologies and methodologies to stay updated in this constantly evolving field.",
+    "educationTitle": "Education",
+    "education": {
+      "degree1": "Computer Systems Engineering",
+      "university1": "Madrid University of Technology",
+      "degree2": "Master's in Front-end Web Development",
+      "university2": "Digital Technologies Institute",
+      "certification": "React Native Application Development Certification",
+      "certificationOrg": "React Academy"
+    },
+    "interestsTitle": "Personal Interests",
+    "interests": [
+      "Photography", 
+      "Travel", 
+      "Music", 
+      "Hiking", 
+      "Reading", 
+      "Chess", 
+      "Technology"
+    ],
+    "languagesTitle": "Languages",
+    "languages": {
+      "spanish": "Spanish",
+      "english": "English",
+      "french": "French",
+      "native": "Native",
+      "fluent": "Fluent",
+      "intermediate": "Intermediate"
+    }
+  }
+}
