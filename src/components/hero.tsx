@@ -71,7 +71,7 @@ export const Hero = () => {
                 <Icon icon="lucide:mail" width={24} />
               </Link>
               <Link
-                href="https://wa.me/34123456789"
+                href="https://wa.me/5355651996"
                 isExternal
                 aria-label="WhatsApp"
                 className="p-1.5 rounded-full bg-green-500 text-white hover:bg-green-600 transition-colors"
@@ -88,7 +88,7 @@ export const Hero = () => {
             transition={{ duration: 0.5, delay: 0.2 }}
           >
             <Avatar
-              src="src/assets/personal_image.webp"
+              src="src/assets/images/personal_image.webp"
               className="w-64 h-64 text-large"
               isBordered
               color="primary"
