@@ -17,6 +17,6 @@
     /* Linting */
     "strict": false
   },
-  "include": ["src"],
-  "references": [{"path": "./tsconfig.node.json"}]
+  "include": ["src/**/*.ts", "src/**/*.tsx", "custom.d.ts"],
+  "references": [{ "path": "./tsconfig.node.json" }]
 }

@@ -3,6 +3,7 @@ import { Button, Link, Avatar } from "@heroui/react";
 import { Icon } from "@iconify/react";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
+import imgMain from "../assets/images/personal_image.png";
 
 export const Hero = () => {
   const { t } = useTranslation();
@@ -88,7 +89,7 @@ export const Hero = () => {
             transition={{ duration: 0.5, delay: 0.2 }}
           >
             <Avatar
-              src="src/assets/images/personal_image.webp"
+              src={imgMain}
               className="w-64 h-64 text-large"
               isBordered
               color="primary"
