@@ -1,27 +1,31 @@
-import React from "react";
+// Import necessary libraries and components
 import { Link, Divider } from "@heroui/react";
 import { Icon } from "@iconify/react";
 import { useTranslation } from "react-i18next";
 
 export const Footer = () => {
   const { t } = useTranslation();
-  
+
   return (
     <footer className="bg-content1 border-t border-divider py-12">
       <div className="max-w-6xl mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="md:col-span-2">
-            <p className="font-bold text-xl mb-4">
+            <p className="font-bold text-xl mb-4 xs:text-center md:text-start">
               <span className="text-primary">Dev</span>Portfolio
             </p>
-            <p className="text-default-500 mb-6 max-w-md">
-              {t('footer.description')}
+            <p className="text-default-500 mb-6 max-w-md text-justify">
+              {t("footer.description")}
             </p>
-            <div className="flex gap-4">
+            <div className="flex gap-4 xs:justify-center md:justify-start">
               <Link href="https://github.com" isExternal aria-label="GitHub">
                 <Icon icon="logos:github-icon" width={20} />
               </Link>
-              <Link href="https://linkedin.com" isExternal aria-label="LinkedIn">
+              <Link
+                href="https://linkedin.com"
+                isExternal
+                aria-label="LinkedIn"
+              >
                 <Icon icon="logos:linkedin-icon" width={20} />
               </Link>
               <Link href="https://twitter.com" isExternal aria-label="Twitter">
@@ -33,44 +37,104 @@ export const Footer = () => {
             </div>
           </div>
 
-          <div>
-            <h3 className="font-semibold mb-4">{t('footer.links')}</h3>
-            <ul className="space-y-2">
+          <div className="xs:text-center md:text-start">
+            <h3 className="font-semibold mb-4 ">{t("footer.links")}</h3>
+            <ul className="space-y-2 ">
               <li>
-                <Link href="#about" color="foreground" className="hover:text-primary">{t('navbar.about')}</Link>
+                <Link
+                  href="#about"
+                  color="foreground"
+                  className="hover:text-primary"
+                >
+                  {t("navbar.about")}
+                </Link>
               </li>
               <li>
-                <Link href="#projects" color="foreground" className="hover:text-primary">{t('navbar.projects')}</Link>
+                <Link
+                  href="#projects"
+                  color="foreground"
+                  className="hover:text-primary"
+                >
+                  {t("navbar.projects")}
+                </Link>
               </li>
               <li>
-                <Link href="#experience" color="foreground" className="hover:text-primary">{t('navbar.experience')}</Link>
+                <Link
+                  href="#experience"
+                  color="foreground"
+                  className="hover:text-primary"
+                >
+                  {t("navbar.experience")}
+                </Link>
               </li>
               <li>
-                <Link href="#skills" color="foreground" className="hover:text-primary">{t('navbar.skills')}</Link>
+                <Link
+                  href="#skills"
+                  color="foreground"
+                  className="hover:text-primary"
+                >
+                  {t("navbar.skills")}
+                </Link>
               </li>
               <li>
-                <Link href="#contact" color="foreground" className="hover:text-primary">{t('navbar.contact')}</Link>
+                <Link
+                  href="#contact"
+                  color="foreground"
+                  className="hover:text-primary"
+                >
+                  {t("navbar.contact")}
+                </Link>
               </li>
             </ul>
           </div>
 
-          <div>
-            <h3 className="font-semibold mb-4">{t('footer.services')}</h3>
+          <div className="xs:text-center md:text-start">
+            <h3 className="font-semibold mb-4">{t("footer.services")}</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="#" color="foreground" className="hover:text-primary">{t('footer.webDev')}</Link>
+                <Link
+                  href="#"
+                  color="foreground"
+                  className="hover:text-primary"
+                >
+                  {t("footer.webDev")}
+                </Link>
               </li>
               <li>
-                <Link href="#" color="foreground" className="hover:text-primary">{t('footer.mobileDev')}</Link>
+                <Link
+                  href="#"
+                  color="foreground"
+                  className="hover:text-primary"
+                >
+                  {t("footer.mobileDev")}
+                </Link>
               </li>
               <li>
-                <Link href="#" color="foreground" className="hover:text-primary">{t('footer.uxConsulting')}</Link>
+                <Link
+                  href="#"
+                  color="foreground"
+                  className="hover:text-primary"
+                >
+                  {t("footer.uxConsulting")}
+                </Link>
               </li>
               <li>
-                <Link href="#" color="foreground" className="hover:text-primary">{t('footer.cloudArch')}</Link>
+                <Link
+                  href="#"
+                  color="foreground"
+                  className="hover:text-primary"
+                >
+                  {t("footer.cloudArch")}
+                </Link>
               </li>
               <li>
-                <Link href="#" color="foreground" className="hover:text-primary">{t('footer.webOpt')}</Link>
+                <Link
+                  href="#"
+                  color="foreground"
+                  className="hover:text-primary"
+                >
+                  {t("footer.webOpt")}
+                </Link>
               </li>
             </ul>
           </div>
@@ -79,12 +143,25 @@ export const Footer = () => {
         <Divider className="my-8" />
 
         <div className="flex flex-col md:flex-row justify-between items-center">
-          <p className="text-default-500 text-sm">
-            © {new Date().getFullYear()} Alvaro Beruvides Guzmán. {t('footer.rights')}
+          <p className="text-default-500 text-sm xs:text-center md:text-start">
+            © {new Date().getFullYear()} Alvaro Beruvides Guzmán.{" "}
+            {t("footer.rights")}
           </p>
           <div className="flex gap-4 mt-4 md:mt-0">
-            <Link href="#" color="foreground" className="text-sm hover:text-primary">{t('footer.privacy')}</Link>
-            <Link href="#" color="foreground" className="text-sm hover:text-primary">{t('footer.terms')}</Link>
+            <Link
+              href="#"
+              color="foreground"
+              className="text-sm hover:text-primary"
+            >
+              {t("footer.privacy")}
+            </Link>
+            <Link
+              href="#"
+              color="foreground"
+              className="text-sm hover:text-primary"
+            >
+              {t("footer.terms")}
+            </Link>
           </div>
         </div>
       </div>
