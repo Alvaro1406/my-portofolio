@@ -1,8 +1,9 @@
-import React from "react";
+// Import necessary libraries and components
+import { useTranslation } from "react-i18next";
+import { motion } from "framer-motion";
 import { Button, Link, Avatar } from "@heroui/react";
 import { Icon } from "@iconify/react";
-import { motion } from "framer-motion";
-import { useTranslation } from "react-i18next";
+// Import assets
 import imgMain from "../assets/images/personal_image.png";
 
 export const Hero = () => {
@@ -24,12 +25,10 @@ export const Hero = () => {
                 <span className="text-primary">Alvaro Beruvides Guzmán</span>
               </h1>
               <h2 className="text-2xl md:text-3xl font-medium text-default-700 mb-6">
-                Desarrollador Front-end
+                {t("hero.role")}
               </h2>
               <p className="text-default-600 text-lg max-w-2xl mb-8">
-                Especializado en crear interfaces de usuario modernas y
-                atractivas con JavaScript, TypeScript, React, Vue 3, Next.js,
-                Nuxt y React Native.
+                {t("hero.description")}
               </p>
             </div>
 
